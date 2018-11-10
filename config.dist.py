@@ -2,7 +2,6 @@ remote_dir = '/home/application/crl_updater/'                                   
 log_dir = 'C:/Users/belim/PycharmProjects/Accredited Certificate and CRL installer/'       # директория для хранения логов
 
 log_name_mask = 'crl_cert_installer_%s.log'                                                # маска для названия файла лога
-cert_mca_f_t = 'mCA_%s.txt'                                                                # маска для названия файлов данных с серверов
 
 test_mode = True                                                                           # включение тестового режима (без установки)
 language = 'ENG'                                                                           # выбор языка при логировании
