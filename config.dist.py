@@ -1,4 +1,3 @@
-crl_dir = 'C:/Users/belim/PycharmProjects/Accredited Certificate and CRL installer/temp'   # директория для загрузки CRL
 remote_dir = '/home/application/crl_updater/'                                              # /srv/www/crypto/data/CRL директория для файлов данных с серверов
 log_dir = 'C:/Users/belim/PycharmProjects/Accredited Certificate and CRL installer/'       # директория для хранения логов
 
@@ -11,5 +10,4 @@ server_list = [1, 2, 4, 5]                                                      
 sleep_time = 1800                                                                          # время задержки выполнения, seconds
 
 cert_install_tries = 3                                                                     # количество попыток установки сертификата
-crl_install_tries = 3                                                                      # количество попыток установки CRL
-install_timeout = 1                                                                        # время задержки между установками
+install_timeout = 0                                                                        # время задержки между установками
