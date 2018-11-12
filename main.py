@@ -4,7 +4,7 @@ from itertools import count
 from time import sleep
 from ets.ets_mysql_lib import MysqlConnection as Mc
 from ets.ets_certmanager_logs_parser_v2 import CertmanagerFile, get_info_file, STORE_MCA, FILE_MCA
-from ets.ets_certmanager_logs_parser_v2 import install_certificate
+# from ets.ets_certmanager_logs_parser_v2 import install_certificate
 from queries import *
 from config import *
 from logger_module import *
@@ -15,6 +15,11 @@ DESCRIPTION = '''Скрипт для установки новых сертиф�
 VERSION = '1.0'
 AUTHOR = 'Belim S.'
 RELEASE_DATE = '2018-10-11'
+
+
+def install_certificate(server, cert_file, **kwargs):
+    """Тестовая функция установки crl"""
+    return True, None
 
 
 def show_version():
